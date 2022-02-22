@@ -1,6 +1,6 @@
 
 #config blockchain
-hardhat.config.js
+.hardhat.config.js
 
 
 # Logs
