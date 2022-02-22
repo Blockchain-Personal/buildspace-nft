@@ -13,7 +13,7 @@ contract MyEpicNFT is ERC721URIStorage {
   Counters.Counter private _tokenIds;
 
   // We need to pass the name of our NFTs token and its symbol.
-  constructor() ERC721 ("SquareNFT", "SQUARE") {
+  constructor() ERC721 ("FlowerPower", "SQUARE") {
     console.log("This is my NFT contract. Woah!");
   }
 
@@ -27,7 +27,8 @@ contract MyEpicNFT is ERC721URIStorage {
 
     // Set the NFTs data.
    // _setTokenURI(newItemId, "blah");
-   _setTokenURI(newItemId, "NFT.json");
+   //_setTokenURI(newItemId, "https://github.com/rya-sge/myNFTCollection/blob/main/coll1/NFT.json");
+   _setTokenURI(newItemId, "https://raw.githubusercontent.com/rya-sge/myNFTCollection/main/coll1/NFT.json");
 
    console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
 
