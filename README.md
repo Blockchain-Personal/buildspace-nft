@@ -8,22 +8,33 @@ Tutorial : " Mint your own NFT collection and ship a Web3 app to show them off"
 
 Each branch represents a step of the tutorial 
 
-1. Create a local NFT
-2. NFT on-chain
+1. 
+
+   a. Create a local NFT 
+
+   b. Deploy to network rinkey with alchemy
+
+2. Generate NFT on-chain
+
 3. Use the deployed contract in web app
+
 4. Next step
 
-## Résultats
+## Results
 
 Web app made with replit.com : https://replit.com/@rya-sge/nft-starter-project
 
-Link wep app : [https://nft-starter-project.rya-sge.repl.co](https://nft-starter-project.rya-sge.repl.co/)https://nft-starter-project.rya-sge.repl.co/)
+Link wep app : [https://nft-starter-project.rya-sge.repl.co](https://nft-starter-project.rya-sge.repl.co/)
 
-Collection available on opensea : https://testnets.opensea.io/collection/flowerpower-wu5p8hwnk2
+Last version of the collection available on OpenSea : https://testnets.opensea.io/collection/flowerpower-wu5p8hwnk2
+
+Last contract address : 0x6Cd83F987eEEEc3a917cD80D35265a71F50E5702
 
 
 
 # Command
+
+List of hardhat commands 
 
 ```shell
 npx hardhat accounts
