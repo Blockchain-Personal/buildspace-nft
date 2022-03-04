@@ -112,7 +112,7 @@ _tokenIds.increment();
 
 ### Alchemy
 
-Alchemy facilite le "broadcast" du contract créee permettant ce qu'il soit rapidement traité par des mineurs. Une fois la transaction miné, le contract sera alors "broadcasté" au reste du réseau.
+Alchemy facilite le "broadcast" du contrat créé afin qu'il soit rapidement traité par des mineurs. Une fois la transaction minée, le contrat sera alors "broadcasté" au reste du réseau.
 
 Lien : [https://www.alchemy.com/](https://www.alchemy.com/)
 
